@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <script src="app.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body
+  style="background-image:url('./pexels-sarmad-mughal-305070.jpg') ; background-position: center; background-repeat: no-repeat;background-size: cover;">
+  <h1 class="display-4 text-center text-white">Car List</h1>
+  <form class="row g-3 justify-content-center mt-5">
+    <div class="col-auto">
+      <label for="company" class="visually-hidden">company</label>
+      <input type="text" class="form-control" id="company" placeholder="Company" />
+    </div>
+    </div>
+    <div class="col-auto">
+      <label for="color" class="visually-hidden">color</label>
+      <input type="text" class="form-control" id="color" age placeholder="Color" />
+    </div>
+    <div class="col-auto">
+      <label for="age" class="visually-hidden">age</label>
+      <input type="number" class="form-control" id="age" placeholder="Age" />
+    </div>
+    <div class="col-auto">
+      <button onclick="addCars()" type="button" class="btn btn-danger text-dark mb-3">
+        Add Cars
+      </button>
+    </div>
+  </form>
+
+  <div class="mt-5 text-center text-white">
+    <h1 class="display-5 text-center my-5">Filtered Car List</h1>
+    <div class="col-auto">
+      <input type="number" class="form-control text-center " id="num" placeholder=" Type Your Cars Age Group Limit" />
+      <button type="button" onclick="newList()" class="btn btn-danger mt-3 text-dark">Show Me The Cars!</button>
+    </div>
+
+    <div class="textContainer text-white mt-3">
+
+    </div>
+</body>
+
+</html>

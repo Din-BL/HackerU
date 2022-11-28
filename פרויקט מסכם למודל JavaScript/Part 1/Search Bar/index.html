@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Search Bar</title>
+  </head>
+
+  <body>
+    <header>
+      <h2 class="title">Country Search</h2>
+      <input type="text" id="input" placeholder="Country's name" />
+      <input type="text" id="color" placeholder="Pick a color" />
+      <button id="add">submit</button>
+    </header>
+    <main>
+      <h2 class="secondary_title">Show countries</h2>
+      <input type="search" id="search" placeholder="Search countries" />
+      <div class="dropMenu"></div>
+      <button class="allCountries">Show All Countries</button>
+      <button class="reset">Reset</button>
+    </main>
+
+    <div class="container">
+      <ul class="listContainer"></ul>
+    </div>
+
+    <div class="selected"></div>
+  </body>
+</html>

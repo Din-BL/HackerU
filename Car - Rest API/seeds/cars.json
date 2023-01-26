@@ -1,0 +1,13 @@
+{
+  "cars": [
+    { "type": "Sedan", "model": "Camry", "year": 2022, "color": "Silver", "price": 35000, "acceleration_speed": 7.5, "max_speed": 120, "Supply": 5 },
+    { "type": "SUV", "model": "Explorer", "year": 2021, "color": "Blue", "price": 45000, "acceleration_speed": 7.0, "max_speed": 130, "Supply": 14 },
+    { "type": "Coupe", "model": "Mustang", "year": 2020, "color": "Red", "price": 40000, "acceleration_speed": 6.5, "max_speed": 150, "Supply": 76 },
+    { "type": "Hatchback", "model": "Golf", "year": 2019, "color": "White", "price": 25000, "acceleration_speed": 7.2, "max_speed": 130, "Supply": 9 },
+    { "type": "Convertible", "model": "MX-5", "year": 2018, "color": "Black", "price": 30000, "acceleration_speed": 7.0, "max_speed": 140, "Supply": 25 },
+    { "type": "Truck", "model": "F-150", "year": 2017, "color": "Gray", "price": 35000, "acceleration_speed": 6.8, "max_speed": 110, "Supply": 8 },
+    { "type": "Van", "model": "Sienna", "year": 2016, "color": "Beige", "price": 32000, "acceleration_speed": 8.0, "max_speed": 120, "Supply": 5 },
+    { "type": "Wagon", "model": "Outback", "year": 2015, "color": "Green", "price": 28000, "acceleration_speed": 7.5, "max_speed": 130, "Supply": 15 },
+    { "type": "Luxury", "model": "S-Class", "year": 2014, "color": "Gold", "price": 75000, "acceleration_speed": 8.0, "max_speed": 150, "Supply": 7 }
+  ]
+}
